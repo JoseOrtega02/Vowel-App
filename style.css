@@ -1,0 +1,47 @@
+*{
+	box-sizing: border-box;
+}
+
+
+html,body{
+	height: 100%;
+}
+
+body{
+	font-family: sans-serif;
+	background-color: lightgray;
+	display: flex;
+	justify-content: center;	
+}
+
+
+/*h1*/
+
+h1{
+	font-size: 48px;
+	text-align: center;
+}
+
+/*input*/
+input{
+	width: 500px;
+	margin-bottom: 10px;
+}
+
+/*button*/
+.button-div{
+	text-align: center;
+}
+button{
+	border: none;
+	background: green;
+	color: white;
+	border-radius: 5px;
+	width: 80px;
+	height: 30px;
+}
+button:hover{
+	cursor: pointer;
+	background: #4ebf19;
+	transition: 0.3s linear;
+}
